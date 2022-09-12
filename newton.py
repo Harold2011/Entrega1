@@ -3,19 +3,17 @@
 
 # Polinomio interpolación
 # Diferencias Divididas de Newton
-# Tarea: Verificar tamaño de vectores,
-#        verificar puntos equidistantes en x
+
 import numpy as np
 import sympy as sym
 import matplotlib.pyplot as plt
 
-# INGRESO , Datos de prueba
+# INGRESO , Datos
 xi = np.array([0.6,0.8,1.6,1.8,4.6,5])
 fi = np.array([4.5445,6.0861,23.9911,33.9239,225.4833,79.3074])
 
-# PROCEDIMIENTO
 
-# Tabla de Diferencias Divididas Avanzadas
+# Tabla de Diferencias Divididas
 titulo = ['i   ','xi  ','fi  ']
 n = len(xi)
 ki = np.arange(0,n,1)
